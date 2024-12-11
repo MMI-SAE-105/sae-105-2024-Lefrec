@@ -1,4 +1,4 @@
-.header {
+.header__bar {
     position: fixed;
     left: 0;
     top: 0;
@@ -8,13 +8,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--couleurs-claire);
+    z-index: 2;
 }
 
 .header__logo-link{
   padding: var(--space1x);
 }
 
-.header::after {
+.header__bar::after {
     content: "";
     width: 100%;
     height: 20px;

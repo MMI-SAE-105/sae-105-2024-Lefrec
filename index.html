@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciné Flash 25</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <a class="header__logo-link" href="/">
-            <img class="header__logo" src="/assets/logo-and-icons/logo-cineflash25-dark-and-shadows.PNG"
-                alt="Logo Ciné Flash 25">
-        </a>
+        <div class="header__bar">
+            <a class="header__logo-link" href="/">
+                <img class="header__logo" src="/assets/logo-and-icons/logo-cineflash25-dark-and-shadows.PNG"
+                    alt="Logo Ciné Flash 25">
+            </a>
 
-        <button class="btn-unstyled header__menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <img src="/assets/logo-and-icons/burger-menu-icon-bars.png" alt="Icône menu hamburger">
-        </button>
-
+            <button class="btn-unstyled header__menu-btn" aria-label="menu" aria-expanded="false"
+                aria-controls="mainNav">
+                <img class="header__menu-icon" src="/assets/logo-and-icons/burger-icon-menu-bar-svg.svg"
+                    alt="Icône menu hamburger">
+            </button>
+        </div>
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
