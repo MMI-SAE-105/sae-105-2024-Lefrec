@@ -1,0 +1,9 @@
+.section {
+    padding: 40px;
+}
+
+.section__title {
+    color: var(--couleurs-sombre);
+    font-family: var(--fonts-common-font);
+    font-style: italic;
+}
