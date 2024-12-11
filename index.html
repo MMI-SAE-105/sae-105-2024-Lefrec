@@ -9,41 +9,45 @@
 </head>
 
 <body>
-    <header>
-        <a href="/">
-            <img src="/assets/logo-and-icons/logo-cineflash25-dark-and-shadows.jpg" alt="Logo Ciné Flash 25">
+    <header class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo" src="/assets/logo-and-icons/logo-cineflash25-dark-and-shadows.jpg"
+                alt="Logo Ciné Flash 25">
         </a>
 
-        <button aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <button class="header__menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <img src="/assets/logo-and-icons/burger-menu-icon-bars.jpg" alt="Icône menu hamburger" aria-hidden="true">
         </button>
 
-        <nav id="mainNav" aria-hidden="true">
-            <ul>
-                <li>
+        <nav class="header__menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
                     <a href="/">Accueil</a>
                 </li>
-                <li>
-                    <a href="/festival.html">Le festival</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/festival.html">Le festival</a>
                 </li>
-                <li>
-                    <a href="/programme.html">Le programme</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/programme.html">Le programme</a>
                 </li>
-                <li>
-                    <a href="/films/">À l'affiche</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/">La billeterie</a>
                 </li>
-                <li>
-                    <a href="/invites/">Les invités</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/films/">À l'affiche</a>
                 </li>
-                <li>
-                    <a href="/infos.html">Infos pratiques</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/invites/">Les invités</a>
                 </li>
-                <li>
-                    <a href="/contact.html">Nous contacter</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="/infos.html">Infos pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/contact.html">Nous contacter</a>
                 </li>
             </ul>
-            <div>
-                <ul>
+            <div class="menu__secondaire">
+                <ul class="menu__social-network list-unstyled" aria-label="Réseaux sociaux">
                     <li><a href="https://www.facebook.com/mmimontbeliard/"><img
                                 src="/assets/logo-and-icons/facebook.jpg" alt="Icône facebook"></a></li>
                     <li><a href="https://www.instagram.com/mmi_montbeliard/"><img
@@ -58,10 +62,147 @@
     </header>
 
     <main>
-        <div>
-            
+        <div class="hero">
+            <h1 class="hero__title">Ciné Flash 25</h1>
         </div>
+
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__title">Le festival</h2>
+            </header>
+            <p class="section__para">
+                Le festival CinéFlash 25 est un événement de courts métrages en plein air qui se tiendra pour la
+                première fois à Ornans, dans le Doubs, du 8 au 10 août 2025. Ce festival unique proposera une sélection
+                variée de films courts, mettant en lumière le talent de cinéastes émergents et confirmés. Dans le cadre
+                pittoresque de la ville, les spectateurs pourront profiter de projections sous les étoiles, créant une
+                ambiance conviviale et immersive.
+            </p>
+            <h3 class="section__exergue">Les date clés</h3>
+            <p class="section__para">
+                Au-delà des projections, le festival CinéFlash 25 offre également des moments d'échange entre les
+                réalisateurs et le public, favorisant des discussions enrichissantes sur les films et le processus
+                créatif. Des ateliers et animations autour du cinéma sont également proposés, permettant à chacun,
+                amateurs comme passionnés, de plonger dans l'univers fascinant du court métrage. Une expérience
+                culturelle incontournable pour les amateurs de cinéma dans un cadre naturel exceptionnel.
+            </p>
+            <button class="btn btn--CTA">
+                À propos du festival
+            </button>
+        </section>
+
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__exergue">
+                    La billeterie
+                </h2>
+            </header>
+            <p class="section__para">
+                Réservez dès maintenant vos billets pour l’édition 2025 du festival !
+                <br>
+                Choisissez entre 3 tarifs personnalisés et abordables pour préparer votre week-end fantastique.
+            </p>
+            <button class="btn btn--billeterie">
+                Accéder à la billeterie
+            </button>
+        </section>
+
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__title">
+                    Sections principales
+                </h2>
+            </header>
+
+            <article class="card">
+                <img class="card__img" src="/assets/photos/camera.jpeg" alt="Une caméra">
+                <p class="card__title">Le festival</p>
+                <p class="card__desc">Découvrez l’histoire du festival, son équipe et ses valeurs.</p>
+                <button class="btn">
+                    Y aller
+                </button>
+            </article>
+
+            <article class="card">
+                <img class="card__img" src="/assets/photos/onecalendar-1024x683.jpg" alt="Un calendrier">
+                <p class="card__title">Le programme</p>
+                <p class="card__desc">Prévoyez votre week-end au festival en regardant le programme des séances à venir
+                    mais aussi des activités annexes.</p>
+                <button class="btn">
+                    Y aller
+                </button>
+            </article>
+        </section>
+
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__title">
+                    Les invités
+                </h2>
+            </header>
+
+            <article class="portrait">
+                <img class="portrait__img" src="/assets/photo-personnes/portrait-3.PNG"
+                    alt="Photos de CLaude Saussereau">
+                <p class="portrait__title">Claude Saussereau</p>
+                <p class="portrait__desc">Réalisateur</p>
+            </article>
+
+            <article class="portrait">
+                <img class="portrait__img" src="/assets/photo-personnes/portrait-1.PNG" alt="Photos de Jean Guy">
+                <p class="portrait__title">Jean Guy</p>
+                <p class="portrait__desc">Comédien</p>
+            </article>
+
+            <button class="btn btn--big">
+                Voir tous les invités
+            </button>
+        </section>
     </main>
+
+    <footer class="footer">
+        <a href="/">
+            <img class="footer__logo" src="/assets/logo-and-icons/logo-cineflash25-light.jpg" alt="Logo Ciné Flash 25">
+        </a>
+        <p class="footer__title">
+            Contact
+        </p>
+        <ul class="footer__list list-unstyled">
+            <li>
+                <p class="footer__content">22 Rue Pierre D'ornans</p>
+            </li>
+            <li>
+                <p class="footer__content">25290 Ornans</p>
+            </li>
+            <li>
+                <p class="footer__content">01 23 45 67 89</p>
+            </li>
+            <li>
+                <p class="footer__content">CinéFlash25Ornans@gmail.com</p>
+            </li>
+        </ul>
+        <p class="footer__title">
+            Mentions légales
+        </p>
+        <p class="footer__content">
+            CinéFlash 25 est l'éditeur du site, accessible à l'adresse CinéFlash25Ornans@gmail.com. Tous les contenus de ce site sont protégés par des droits de propriété intellectuelle. Conformément à la loi sur les données personnelles, vous pouvez accéder et modifier vos informations en nous contactant directement.
+        </p>
+        <p class="footer__title">
+            <ul class="footer__socials list-unstyled">
+                <li>
+                    <a 
+                    href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR">
+                    <img src="/assets/logo-and-icons/facebook.jpg" alt="Icônes facebook"></a></li>
+                <li>
+                    <a 
+                    href="https://www.instagram.com/mmi_montbeliard/">
+                    <img src="/assets/logo-and-icons/instagram.jpg" alt="Icônes instagram"></a></li>
+                <li>
+                    <a 
+                    href="https://www.youtube.com/channel/UCgW7jR8McJwjxPh0fDQaXGg/videos">
+                    <img src="/assets/logo-and-icons/youtube.jpg" alt="Icône youtube"></a></li>
+            </ul>
+        </p>
+    </footer>
 </body>
 
 </html>
