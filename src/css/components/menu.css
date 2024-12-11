@@ -4,7 +4,6 @@
     position: fixed;
     inset: 0;
     z-index: 1;
-    background-color: var(--couleurs-tonique);
     color: var(--white);
     flex-direction: column;
     justify-content: space-between;
@@ -19,8 +18,7 @@
 }
 
 .menu__list{
-    position: fixed;
-    top: 100px;
+    transform: translateY(100px);
     display: flex;
     flex-direction: column;
     padding: 0 50px;
@@ -45,5 +43,5 @@
   display: flex;
   gap: var(--space2x);
   justify-content: end;
-  margin-bottom: var(--space2x);
+  margin: var(--space2x);
 }
