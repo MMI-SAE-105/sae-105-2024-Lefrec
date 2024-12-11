@@ -3,16 +3,30 @@
     left: 0;
     top: 0;
     width: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--couleurs-claire);
 }
 
+.header__logo-link{
+  padding: var(--space1x);
+}
+
+.header::after {
+    content: "";
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 50px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-blend-mode: color;
+}
+
 .header__menu-btn{
-  width: fit-content;
-  margin: var(--space2x);
+  width: 32px;
+  height: 32px;
+  margin: var(--space1x);
   padding: 0;
-  display: flex;
-  background: none;
 }

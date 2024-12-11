@@ -38,3 +38,10 @@
     height: 2px;
     background-color: var(--couleurs-tonique);
 }
+
+.section__para{
+    color: var(--couleurs-sombre);
+    font-family: var(--fonts-common-font);
+    font-size: var(--fs-m);
+    font-weight: 400;
+}
