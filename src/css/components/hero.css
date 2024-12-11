@@ -15,7 +15,7 @@
     height: 100%;
     position: absolute;
     background: linear-gradient(270deg, rgba(255, 232, 0, 0.50) 0%, rgba(255, 154, 230, 0.50) 100%);
-    background-blend-mode: color;
+    background-blend-mode: soft-light;
     border-radius: 0px 0px 25px 25px;
 }
 

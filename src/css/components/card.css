@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.card__img{
+    width: 100%;
+    border: 2px solid var(--couleurs-dominante);
+    border-radius: 5px;
+}
+
+.card__title{
+    color: var(--Couleurs-Sombre);
+    font-family: var(--fonts-heading-font);
+    font-size: var(--fs-l);
+    font-weight: 400;
+    margin: 0;
+}
+
+.card__desc{
+    color: var(--couleurs-sombre);
+    font-family: var(--fonts-common-font);
+    font-size: var(--fs-m);
+    font-weight: 400;
+    margin: 0;
+
+}
