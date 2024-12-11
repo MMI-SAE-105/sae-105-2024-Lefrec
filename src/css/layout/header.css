@@ -1,0 +1,19 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 var(--space1x);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--couleurs-claire);
+}
+
+.header__menu-btn{
+  width: fit-content;
+  margin: var(--space2x);
+  padding: 0;
+  display: flex;
+  background: none;
+}
