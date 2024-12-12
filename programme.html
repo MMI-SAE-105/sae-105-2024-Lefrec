@@ -88,8 +88,8 @@
                 </h2>
             </header>
 
-            <div class="section__carousel">
-                <article class="card">
+            <div class="section carousel">
+                <article class="carousel__item card">
                     <img class="card__img" src="/assets/image-film/le-saint-de-stockholm.jpg" alt="Image du film Le saint de stockholm">
                     <h2 class="card__title">Le saint de stockholm</h2>
                     <p class="card__info">Claude Saussereau</p>
@@ -97,7 +97,7 @@
                     <a class="btn" href="/">Plus d'infos</a>
                 </article>
 
-                <article class="card">
+                <article class="carousel__item card">
                     <img class="card__img" src="/assets/image-film/quoi-quil-arrive.jpg" alt="Image du film Quoi qu'il arrive je vous aime">
                     <h2 class="card__title">Quoi qu'il arrive je vous aime</h2>
                     <p class="card__info">Michael Govier</p>
@@ -105,13 +105,22 @@
                         <a class="btn" href="/">Plus d'infos</a>
                 </article>
 
-                <article class="card">
+                <article class="carousel__item card">
                     <img class="card__img" src="/assets/image-film/la-tangente.jpg" alt="Image du film La tangente">
                     <h2 class="card__title">La tangente</h2>
                     <p class="card__info">Vincent Vesco</p>
                     <p class="card__desc">C'est une surprise ...</p>
                         <a class="btn" href="/">Plus d'infos</a>
                 </article>
+
+                <div class="carousel__controls">
+                    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                      <img src="/assets/logo-and-icons/arrow-icon.svg" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                      <img src="/assets/logo-and-icons/arrow-icon.svg" alt="fleche droite" />
+                    </button>
+                </div>
             </div>
         </section>
 

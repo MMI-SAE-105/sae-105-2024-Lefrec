@@ -114,15 +114,15 @@
                 </h2>
             </header>
 
-            <div class="section__carousel">
-                <article class="card">
+            <div class="section carousel">
+                <article class="carousel__item card">
                     <img class="card__img" src="/assets/photos/camera.jpeg" alt="Une caméra">
                     <h2 class="card__title">Le festival</h2>
                     <p class="card__desc">Découvrez l’histoire du festival, son équipe et ses valeurs.</p>
                     <a class="btn" href="/festival.html">Y aller</a>
                 </article>
 
-                <article class="card">
+                <article class="carousel__item card">
                     <img class="card__img" src="/assets/photos/onecalendar-1024x683.jpg" alt="Un calendrier">
                     <h2 class="card__title">Le programme</h2>
                     <p class="card__desc">Prévoyez votre week-end au festival en regardant le programme des séances à
@@ -130,6 +130,15 @@
                         mais aussi des activités annexes.</p>
                         <a class="btn" href="/programme.html">Y aller</a>
                 </article>
+
+                <div class="carousel__controls">
+                    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                      <img src="/assets/logo-and-icons/arrow-icon.svg" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                      <img src="/assets/logo-and-icons/arrow-icon.svg" alt="fleche droite" />
+                    </button>
+                </div>
             </div>
         </section>
 

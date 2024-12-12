@@ -47,18 +47,6 @@
     font-weight: 400;
 }
 
-.section__carousel{
-    display: flex;
-    gap: 16px;
-    overflow-x: scroll;
-    margin: 0 -40px;
-    padding: 0 40px;
-}
-
-.section__carousel::-webkit-scrollbar{
-    display: none;
-}
-
 .section__grid{
     display: grid;
     gap: 10px;
