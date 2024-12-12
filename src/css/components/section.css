@@ -44,7 +44,12 @@
 }
 
 .section__carousel{
-
+    display: flex;
+    gap: 16px;
+    overflow: visible;
+    overflow-x: scroll;
+    margin: 0 -40px;
+    padding: 0 40px;
 }
 
 .section__grid{
