@@ -1,6 +1,7 @@
 *{
     color: var(--couleurs-sombre);
     font-family: var(--fonts-common-font);
+    text-decoration: none;
 }
 
 .visuallyhidden {
@@ -30,7 +31,6 @@
 }
 
 .btn {
-    text-decoration: none;
     border-style: none;
     padding: 5px;
     display: inline-flex;
