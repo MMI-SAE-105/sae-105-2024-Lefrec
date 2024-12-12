@@ -38,6 +38,10 @@
     background-color: var(--couleurs-tonique);
 }
 
+.exergue--vide::after{
+    width: 0;
+}
+
 .section__para{
     font-size: var(--fs-m);
     font-weight: 400;
