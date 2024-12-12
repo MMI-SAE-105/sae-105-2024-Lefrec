@@ -57,3 +57,10 @@
     gap: 10px;
     grid-template-columns: auto auto;
 }
+
+.section__img{
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--couleurs-dominante);
+    border-radius: 5px;
+}
