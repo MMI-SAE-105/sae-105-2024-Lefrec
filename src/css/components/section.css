@@ -38,7 +38,7 @@
     background-color: var(--couleurs-tonique);
 }
 
-.exergue--vide::after{
+.section--no-text::before{
     width: 0;
 }
 
@@ -50,10 +50,13 @@
 .section__carousel{
     display: flex;
     gap: 16px;
-    overflow: visible;
     overflow-x: scroll;
     margin: 0 -40px;
     padding: 0 40px;
+}
+
+.section__carousel::-webkit-scrollbar{
+    display: none;
 }
 
 .section__grid{
