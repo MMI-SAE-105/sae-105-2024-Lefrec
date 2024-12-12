@@ -68,7 +68,8 @@
 
 .section__img{
     width: 100%;
-    height: auto;
+    height: 200px;
     border: 2px solid var(--couleurs-dominante);
     border-radius: 5px;
+    object-fit: cover;
 }
