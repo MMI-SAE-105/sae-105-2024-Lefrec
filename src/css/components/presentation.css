@@ -9,6 +9,7 @@
     max-height: 500px;
     height: fit-content;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .presentation__title{

@@ -6,7 +6,7 @@
 - NOM : VINCENT
 - PRÉNOM : PAOLO
 - GROUPE : C2
-- URL du site : jsp encore bebz
+- URL du site : https://cine-flash-25.paolo-vincent.fr
 - URL FIGMA : https://www.figma.com/design/DKtxRX5UjNlyXfVEp1K2tU/SA%C3%89-103?node-id=1-4&t=Ew1RPt0tsBQ03cwG-1
 
 ## Sujet

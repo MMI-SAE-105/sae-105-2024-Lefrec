@@ -62,6 +62,10 @@
     object-fit: cover;
 }
 
+.section__vid{
+    border: none;
+}
+
 .section__socials{
     display: flex;
     justify-content: space-around;
