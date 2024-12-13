@@ -1,0 +1,26 @@
+.presentation__header{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.presentation__img{
+    width: 50%;
+    max-height: 500px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.presentation__title{
+    font-size: var(--fs-l);
+}
+
+.presentation__details{
+    font-size: var(--fs-m);
+    font-weight: var(--font-weight-light);
+}
+
+.presnetation__vid{
+    width: 100%;
+    height: auto;
+}
