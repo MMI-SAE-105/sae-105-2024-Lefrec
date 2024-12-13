@@ -16,6 +16,7 @@
 .carousel__controls {
     position: absolute;
     transform: translateY(-32px);
+    right: 32px;
     display: flex;
     gap: 16px;
     align-items: center;
