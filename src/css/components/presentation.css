@@ -1,4 +1,4 @@
-.presentation__header{
+.presentation{
     display: flex;
     gap: 10px;
     width: 100%;
@@ -18,9 +18,4 @@
 .presentation__details{
     font-size: var(--fs-m);
     font-weight: var(--font-weight-light);
-}
-
-.presnetation__vid{
-    width: 100%;
-    height: auto;
 }
