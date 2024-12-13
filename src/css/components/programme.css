@@ -8,9 +8,9 @@
     background-color: var(--couleurs-tonique);
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 10px;
-    justify-content: space-between;
-    align-items: center;
     height: 72px;
 }
 
@@ -22,14 +22,27 @@
     margin: 0;
 }
 
-.programme__btn{
+.programme__filtres-list{
+    display: flex;
+    gap: 10px;
+}
+
+.programme__filtre{
     height: fit-content;
     background-color: var(--couleurs-claire);
     color: var(--couleurs-sombre);
 }
 
-.programme__arrow-icon{
-    height: 15px;
+.filter-disabled{
+    opacity: 50%;
+    img {
+        display: none;
+    }
+}
+
+.programme__icon{
+    height: 10px;
+    margin-left: 5px;
 }
 
 .programme__seance{
@@ -38,6 +51,10 @@
     border: 2px solid var(--couleurs-tonique);
     border-radius: 5px;
     padding: 10px;
+}
+
+.seance-disabled{
+    display: none;
 }
 
 .programme__name{

@@ -89,14 +89,24 @@
                     <h1 class="programme__title">
                         Les séances
                     </h1>
-                    <button class="btn programme__btn">
-                        Filtres
-                        <img class="programme__arrow-icon" src="/assets/logo-and-icons/arrow-icon.svg" alt="Flèche">
-                    </button>
+                    <div class="programme__filtres-list">
+                        <button class="btn programme__filtre" data-jour="vendredi">
+                            Vendredi
+                            <img class="programme__icon" src="/assets/logo-and-icons/cross-icon.svg" alt="Croix">
+                        </button>
+                        <button class="btn programme__filtre" data-jour="samedi">
+                            Samedi
+                            <img class="programme__icon" src="/assets/logo-and-icons/cross-icon.svg" alt="Croix">
+                        </button>
+                        <button class="btn programme__filtre" data-jour="dimanche">
+                            Dimanche
+                            <img class="programme__icon" src="/assets/logo-and-icons/cross-icon.svg" alt="Croix">
+                        </button>
+                    </div>
                 </header>
-                <div class="programme__seance" data-jour="vendredi">
+                <div class="programme__seance vendredi">
                     <h2 class="programme__name">
-                        Titre du film ici
+                        Le film de vendredi
                     </h2>
                     <div class="programme__infos">
                         <p class="programme__detail">
@@ -104,6 +114,20 @@
                         </p>
                         <p class="programme__detail">
                             Vendredi
+                        </p>
+                        <a class="btn" href="/films/film-type.html">Plus d'infos</a>
+                    </div>
+                </div>
+                <div class="programme__seance samedi">
+                    <h2 class="programme__name">
+                        Le film de samedi
+                    </h2>
+                    <div class="programme__infos">
+                        <p class="programme__detail">
+                            00h00
+                        </p>
+                        <p class="programme__detail">
+                            Samedi
                         </p>
                         <a class="btn" href="/films/film-type.html">Plus d'infos</a>
                     </div>
