@@ -7,6 +7,7 @@
     <title>Le programme</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/filtre-programme.js"></script>
     <link rel="icon" type="image/png" href="/assets/logo-and-icons/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/logo-and-icons/favicon.svg" />
     <link rel="shortcut icon" href="/assets/logo-and-icons/favicon.ico" />
@@ -83,7 +84,31 @@
                 </h2>
             </header>
 
-
+            <div class="programme">
+                <header class="programme__header">
+                    <h1 class="programme__title">
+                        Les séances
+                    </h1>
+                    <button class="btn programme__btn">
+                        Filtres
+                        <img class="programme__arrow-icon" src="/assets/logo-and-icons/arrow-icon.svg" alt="Flèche">
+                    </button>
+                </header>
+                <div class="programme__seance" data-jour="vendredi">
+                    <h2 class="programme__name">
+                        Titre du film ici
+                    </h2>
+                    <div class="programme__infos">
+                        <p class="programme__detail">
+                            00h00
+                        </p>
+                        <p class="programme__detail">
+                            Vendredi
+                        </p>
+                        <a class="btn" href="/films/film-type.html">Plus d'infos</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="section">
