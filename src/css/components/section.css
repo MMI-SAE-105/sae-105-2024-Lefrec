@@ -61,3 +61,17 @@
     border-radius: 5px;
     object-fit: cover;
 }
+
+.section__socials{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.section__social-link{
+    flex: 0 1 50px;
+}
+
+.section__social-icon{
+    width: 100%;
+}
