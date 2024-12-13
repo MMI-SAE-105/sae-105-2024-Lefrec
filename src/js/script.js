@@ -1,4 +1,3 @@
-//Script pour le menu
 const nav = document.querySelector(".menu");
 const toggle = document.querySelector(".header__menu-btn");
 const icon = document.querySelector(".header__menu-icon");
@@ -18,23 +17,3 @@ toggle.addEventListener("click", (event) => {
         icon.src = "/assets/logo-and-icons/burger-icon-menu-bar-svg.svg";
     }
 });
-//Fin du script menu
-
-
-//Script pour les carousels
-const carousel = document.querySelector(".carousel");
-const prevButton = document.querySelector(".carousel__button--prev");
-const nextButton = document.querySelector(".carousel__button--next");
-const premierItem = document.querySelector(".carousel__item");
-const scrollAmount = premierItem.clientWidth;
-
-prevButton.addEventListener("click", (event) => {
-    carousel.scrollBy({ left: -premierItem.clientWidth, behavior: "smooth" });
-    if (carousel.scrollLeft <= 0) {
-        console.log("reached the end")
-    };
-});
-nextButton.addEventListener("click", (event) => {
-        carousel.scrollBy({ left: +premierItem.clientWidth, behavior: "smooth" });
-});
-//Fin script carousels
