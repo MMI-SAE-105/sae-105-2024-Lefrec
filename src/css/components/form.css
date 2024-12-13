@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.form__label {
+    font-size: var(--fs-m);
+    font-weight: var(--font-weight-medium);
+}
+
+.form__field {
+    width: 100%;
+    border: 1px solid var(--couleurs-tonique);
+    border-radius: 5px;
+}
