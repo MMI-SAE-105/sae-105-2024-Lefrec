@@ -28,15 +28,13 @@ const nextButton = document.querySelector(".carousel__button--next");
 const premierItem = document.querySelector(".carousel__item");
 const scrollAmount = premierItem.clientWidth;
 
-if (carousel) {
-    prevButton.addEventListener("click", (event) => {
-        carousel.scrollBy({ left: -premierItem.clientWidth, behavior: "smooth" });
-        if (carousel.scrollLeft <= 0) {
-            console.log("reached the end")
-        };
-    });
-    nextButton.addEventListener("click", (event) => {
+prevButton.addEventListener("click", (event) => {
+    carousel.scrollBy({ left: -premierItem.clientWidth, behavior: "smooth" });
+    if (carousel.scrollLeft <= 0) {
+        console.log("reached the end")
+    };
+});
+nextButton.addEventListener("click", (event) => {
         carousel.scrollBy({ left: +premierItem.clientWidth, behavior: "smooth" });
-    });
-}
+});
 //Fin script carousels
